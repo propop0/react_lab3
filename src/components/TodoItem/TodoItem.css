@@ -1,0 +1,44 @@
+.todo-item{
+display:flex;
+align-items:center;
+justify-content:space-between;
+background:linear-gradient(180deg, #ffffff, #fbfbff);
+padding:10px 12px;
+border-radius:8px;
+box-shadow:0 3px 8px rgba(30,30,60,0.06);
+width:97%;
+}
+
+
+.todo-left{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+
+.todo-text{
+font-size:15px;
+color:#222;
+}
+
+
+.todo-item.completed .todo-text{
+text-decoration:line-through;
+color:#9aa0c7;
+}
+
+
+.delete-btn{
+background:transparent;
+border:1px solid rgba(220,38,38,0.12);
+color:#c53030;
+padding:6px 10px;
+border-radius:6px;
+cursor:pointer;
+}
+
+
+.delete-btn:hover{
+background:rgba(197,63,63,0.06);
+}

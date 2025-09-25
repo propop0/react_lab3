@@ -1,0 +1,35 @@
+.todo-list-root{
+width:100%;
+max-width:600px;
+margin:0 auto;
+padding:24px;
+background:linear-gradient(180deg,#e9ebde,#add8c4);
+border-radius:12px;
+box-shadow:0 12px 40px rgba(70,50,120,0.08);;
+}
+
+
+.title{
+margin:0 0 12px 0;
+font-size:20px;
+color:#2b2e4a;
+text-align:center;
+}
+
+
+.add-wrap{
+margin-bottom:16px;
+}
+
+
+.items{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+
+.empty{
+color:#6b7280;
+text-align:center;
+}
